@@ -2,4 +2,6 @@
 
 source "https://rubygems.org"
 
+gem 'test-unit-runner-tap',  :github => "renderedtext/test-unit-runner-tap"
+
 gemspec

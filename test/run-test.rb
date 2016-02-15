@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+require 'test/unit/runner/tap'
 
 $VERBOSE = true
 
