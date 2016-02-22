@@ -8,6 +8,7 @@ require 'test/unit/failure'
 module Test::Unit
   class TestFailure < TestCase
     def test_display
+      sleep(20)
       f = Failure.new("name", [%q{location:1 in 'l'}], "message1\nmessage2")
       assert_equal("name: message1", f.short_display)
       assert_equal(<<EOM.strip, f.long_display)

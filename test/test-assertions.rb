@@ -665,6 +665,7 @@ EOM
       end
 
       def test_assert_not_instance_of
+        sleep(20)
         check_nothing_fails {
           assert_not_instance_of(NilClass, "string")
         }
