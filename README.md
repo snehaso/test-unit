@@ -82,6 +82,7 @@ Exception:
 
 ## Thanks
 
+
 * Daniel Berger: Suggestions and bug reports.
 * Designing Patterns: Suggestions.
 * Erik Hollensbe: Suggestions and bug reports.
